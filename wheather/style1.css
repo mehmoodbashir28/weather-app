@@ -1,0 +1,63 @@
+
+
+.body1, body, html{
+	height: 100%;
+	width: 100%;
+	background-color:#c0c0c0;
+	font-family: 'Roboto', sans-serif;
+}
+.body1{
+	    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+	min-width: 500px;
+	width:40%;
+	background-image: url(images&icons/backgroundPage1.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    -webkit-box-shadow: 2px 0px 43px 1px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 0px 43px 1px rgba(0,0,0,1);
+	box-shadow: 2px 0px 43px 1px rgba(0,0,0,1);
+}
+#add, #menuLines{
+	padding: 5px;
+	font-size: 32px;	
+}
+#add{
+	float: right;
+}
+#menuLines{
+	float: left;
+}
+.nameTime{
+	text-align: center;
+    vertical-align: middle;
+    font-size: 28px;
+}
+#sun{
+	color: #fcf050;
+	font-size: 3.5em;
+
+}
+.up{
+	color: white;
+}
+.down{
+	color: white;
+	padding: 1em;
+	position: absolute;
+	/*bottom: 0px;*/
+}
+.aboutWeather{
+	font-size: 3em;
+}
+.temp{
+	font-size: 2em;
+}
+.todayTemp{
+	font-size: 5em;
+}
