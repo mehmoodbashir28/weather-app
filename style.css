@@ -1,8 +1,31 @@
 
-body{
-	background-image: url(night.png);
-	color: white;
-	
+body, html {
+  height: 100%;
+  width: 100%;
+  color: white;	
+  font-family: 'Merienda', cursive;
+}
+
+header{
+    padding: 16px 0;
+    /*color: grey;
+    background-color: #eaeaea;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap !important;
+    align-content: flex-start;
+    font-family: 'Merienda', cursive;
+    width: 100%;
+    font-size: 8vw;
+  }
+.body2{
+  height: 100vh;
+  width: 100%;
+  background-color: #00000073;
+  overflow-y: scroll;
+
 }
 .input-group{
 	margin: 1em auto;
@@ -69,23 +92,32 @@ input:checked + .slider:before {
 }
 
 .body1{
-	text-align: center;
-}
+    text-align: center;
+    background-image: url(night.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+  }
 .temp{
-	font-size: 4em;
+	font-size: 7vw;
 }
 .description{
-	font-size: 2em;
+	font-size: 4vw;
 }
 .switch-btn{
-	font-size: 2em;
+	font-size: 4vw;
 }
 .city-name{
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
 #icon{
-	font-size: 3em;
+	font-size: 2vw;
+  margin-top: 0px;
 }
 .weather-info{
 	display: none;
@@ -94,4 +126,16 @@ input:checked + .slider:before {
   
   height: 100px;
   width: 100px;
+}
+/*.row div{
+  border: 1px solid black;
+}*/
+
+.col-sm{
+  min-width: 250px;
+  /*max-width: 250px;*/
+  border: 1px solid black;
+}
+.temp-range{
+  font-size: 2vw;
 }

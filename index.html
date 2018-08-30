@@ -17,6 +17,10 @@
 </head>
 <body>
 	<section class="body1">
+		<div class="body2">
+	 <header>
+      <span> Get Your City Weather </span>
+     </header>
 		<div class="search">
 			<div class="input-group mb-3">
   				<input type="text" id="myInput" class="form-control" placeholder="Enter City name" aria-label=" City name" aria-describedby="basic-addon2" onkeydown = "if (event.keyCode == 13)
@@ -36,15 +40,71 @@
 			<div class="switch-btn">
 				<span>°C</span>
 				<label class="switch">
-				  <input type="checkbox">
+				  <input id="abc" type="checkbox" onclick="toggle()">
 				  <span class="slider round"></span>
 				</label>
 				<span>°F</span>				
 			</div>
 			<p class="temp-range"><span class="min"></span> ° /  <span class="max"></span>° </p>
-
-				
 		</div>
+			<div class="container-fc">
+			  <div class="row">
+			   <div class="col-sm">
+			      <div class="mon">
+						<p class="dayOne">Day</p>
+						<hr>
+						<p id="icona"></p>
+
+						<p class="pre-temp-a">Temp <sup>&#176;</sup></p>
+						<p class="pre-wind-a">Wind</p>
+						<p class="pre-cloud-a">Weather</p>
+					</div>
+			   </div>
+			   <div class="col-sm">
+			      <div class="tue">
+						<p class="dayTwo">Day</p>
+						<hr>
+						<p id="iconb"></p>
+
+						<p class="pre-temp-b">Temp <sup>&#176;</sup></p>
+						<p class="pre-wind-b">Wind</p>
+						<p class="pre-cloud-b">Weather</p>
+					</div>
+			   </div>
+			   <div class="col-sm">
+			      <div class="wed">
+						<p class="dayThree">Day</p>
+						<hr>
+						<p id="iconc"></p>
+
+						<p class="pre-temp-c">Temp <sup>&#176;</sup></p>
+						<p class="pre-wind-c">Wind</p>
+						<p class="pre-cloud-c">Weather</p>
+					</div>
+			   </div>
+			   <div class="col-sm">
+			      <div class="thur">
+						<p class="dayFour">Day</p>
+						<hr>
+						<p id="icond"></p>
+
+						<p class="pre-temp-d">Temp <sup>&#176;</sup></p>
+						<p class="pre-wind-d">Wind</p>
+						<p class="pre-cloud-d">Weather</p>
+					</div>
+			   </div><div class="col-sm">
+			      <div class="fri">
+						<p class="dayFive">Day</p>
+						<hr>
+						<p id="icone"></p>
+
+						<p class="pre-temp-e">Temp <sup>&#176;</sup></p>
+						<p class="pre-wind-e">Wind</p>
+						<p class="pre-cloud-e">Weather</p>
+					</div>
+			   </div>
+			</div>
+			</div>	
 	</section>
 </body>
 </html>
