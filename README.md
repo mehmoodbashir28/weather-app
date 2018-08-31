@@ -5,10 +5,10 @@ You can see my weather App here ->  https://mehmoodbashir28.github.io/weather-ap
 A basic client-side weather app example.
 Uses the Open Weather Map API to request weather data.
 
-#WORKSHOP
+~WORKSHOP:-
 IDEA - Let's make a super simple weather appplication that runs on the web. You type in the name of a city and get the current temperature for that city.
 
-#Ingredients
+~Ingredients:-
 To make this application, we're going to need to cover the following topics:
 
 * HTML - the information represented on the page
