@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   width: 100%;
   color: white;	
-  font-family: 'Merienda', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -16,7 +16,7 @@ header{
     justify-content: center;
     flex-wrap: wrap !important;
     align-content: flex-start;
-    font-family: 'Merienda', cursive;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     font-size: 8vw;
   }
